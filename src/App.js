@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Containers/Home';
+import Projects from './Containers/Projects';
+import About from './Containers/About';
+import Footer from './Components/Footer'
+import {Route,Switch, useLocation} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component{
+
+  
+  render(){
+    const location = useLocation()
+
+    return (
+      <React.Fragment>
+        <Navbar/>
+          <Switch location={location}>
+            <Route exact path="/" component={Home}/>
+            <Route path='/projects' component={Projects}/>
+            <Route path='/about'component={About}/>
+          </Switch>
+        <Footer/>
+      </React.Fragment>
+    )}
 }
-
 export default App;
+
+
