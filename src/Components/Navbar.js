@@ -12,11 +12,11 @@ export default function Navbar(){
     const loc= useLocation().pathname
 
     return (
-        <div className="nav">
-            <Link to = '/'className = {`${loc === '/' ? 'curr' : ''}mover`} style = {navStyle} 
+        <div>
+            {/* <Link to = '/'className = {`${loc === '/' ? 'curr' : ''}mover`} style = {navStyle} 
             ><h3>Logo</h3>
             </Link>
-           
+            */}
             <Link to = '/projects' className = {`${loc === '/' ? 'curr' : ''}mover`} style = {navStyle} >
                 Project
             </Link>
