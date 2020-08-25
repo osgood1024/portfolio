@@ -1,7 +1,57 @@
+nav{
+  background-color: #434343;
+}
+
+
 .App {
+  text-align: center;
+  
+}
+
+
+#contact{
+  min-height: 10vh;
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
+}
+
+
+
+.container{
+  padding-top: 2.5%;
+  padding-bottom: 4%;
+}
+.center{
   text-align: center;
 }
 
+.icon{
+  width: 25px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 3px;
+  margin-left: 12px;
+  margin-top: -.25vh;
+  object-fit: cover;
+}
+
+.color{
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.color:hover{
+  font-weight: 600; 
+  color: #eeaa44;
+  position: relative;  
+  /* transition-duration: 1 s;
+  text-shadow: 0 0 3px #F5F5F5, 0 0 5px #F5F5F5;     */
+}
+/* 
 .nav{
   display: flex;
   justify-content: space-around;
@@ -34,13 +84,11 @@
 }
 
 .mover:hover {
-  font-weight: 530; 
-  color: #eeaa44;
+  font-weight: 600; 
   position: relative;  
-  /* color: #000000; */
   transition-duration: 1 s;
   text-shadow: 0 0 3px #F5F5F5, 0 0 5px #F5F5F5;    
- }
+ } 
 
 
 
