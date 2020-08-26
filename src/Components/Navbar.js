@@ -5,14 +5,16 @@ import {NavLink} from 'react-router-dom' ;
  const Navbar = () => {
  
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark shadow-lg">
 
+        
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg">
+        
         <NavLink
               exact
               to="/"
-              className="nav-item nav-link mover"
+              className="nav-item nav-link mover "
               activeClassName="nav-item nav-link active"
-            >
+              >
          <span className="navbar-brand mb-0 h1">
             Osgood Gunawan
         </span>
@@ -26,7 +28,7 @@ import {NavLink} from 'react-router-dom' ;
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
+          >
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -36,7 +38,7 @@ import {NavLink} from 'react-router-dom' ;
               to="/Projects"
               className="nav-item nav-link mover"
               activeClassName="nav-item nav-link active"
-            >
+              >
               Projects
             </NavLink>
             <NavLink
@@ -44,7 +46,7 @@ import {NavLink} from 'react-router-dom' ;
               to="/About"
               className="nav-item nav-link mover"
               activeClassName="nav-item nav-link active"
-            >
+              >
               About Me
             </NavLink>
            
@@ -55,6 +57,9 @@ import {NavLink} from 'react-router-dom' ;
           </div>
         </div>
       </nav>
+     
+
+      
        
     )
 }

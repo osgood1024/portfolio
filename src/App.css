@@ -1,5 +1,11 @@
 nav{
   background-color: #434343;
+ 
+}
+
+h1 { 
+  padding-top: 70px;
+  text-align: center;
 }
 
 
@@ -8,33 +14,49 @@ nav{
 }
 
 .photo{
-  width:100% ;
-  -ms-background-position-x: center;
+  /* padding-top: 15px; */
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  background-size: cover;
+  position: relative;
+
+
+  /* -ms-background-position-x: center;
   -ms-background-position-y: bottom;
   background-position: center bottom;
-  background-size: cover;
+  background-size: cover; */
 
+}
+
+
+
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  padding-bottom: 2.5rem;
+}
+
+
+.main-footer{
+  /* min-height: 4vh; */
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  padding-top: 3em;
+  /* padding-bottom: 2.5rem; */ 
+  padding: 20px;
+  text-align: center;
   
 }
 
-#contact{
-  min-height: 10vh;
-  background-color: #000000;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width:100%;
-}
 
 
-
-.container{
-  padding-top: 2.5%;
-  padding-bottom: 3%;
-}
-.center{
-  text-align: center;
-}
 
 .icon{
   width: 25px;

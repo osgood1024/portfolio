@@ -7,6 +7,9 @@ import Home from "./Containers/Home";
 import Projects from "./Containers/Projects";
 import Navbar from  './Components/Navbar';
 import Footer from './Components/Footer'
+import './App.css';
+import ParticlesContainer from './Components/ParticlesContainer'
+// import Particles from "react-particles-js";
 
 
 
@@ -20,20 +23,30 @@ const App = () => {
   });
 
   return (
-    <>
-      <Navbar />
+    <>  
+    {/* <div className='page-container'>  */}
+        {/* <div className='content-wrap'> */}
+      <Navbar/>
+        {/* <ParticlesContainer> */}
+
       <main >
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
-              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/projects" component={Projects}/>
             </Switch>
           </animated.div>
         ))}
       </main>
-        <Footer/>
+        {/* </ParticlesContainer> */}
+          {/* </div> */}
+         <footer>
+            <Footer/>
+         </footer>
+          
+    {/* </div>  */}
     </>
   );
 };

@@ -1,14 +1,20 @@
 import React from 'react';
 import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 import '../App.css'
+import ParticlesContainer from '../Components/ParticlesContainer'
 
 
 const Home =()=>{
-    const myPic=require('../Pics/beach.jpg');
+    // const myPic=require('../Pics/beach.jpg');
 
     return (
         <AbsoluteWrapper >
-            <img className="photo" src={myPic} alt="Osgood"/>
+            
+                <ParticlesContainer />
+           
+            {/* <img className="photo" src={myPic} alt="Osgood"/> */}
+
+  
         </AbsoluteWrapper>
 
 

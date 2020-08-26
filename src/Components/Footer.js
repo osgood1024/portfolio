@@ -2,9 +2,6 @@ import React from 'react';
 import '../App.css';
 
 
-
-
-
 const Footer = () =>{
     const email= require("../Pics/email.png");
     const github= require("../Pics/github.png");
@@ -14,9 +11,8 @@ const Footer = () =>{
 
     return(
         
-        <div id="contact">
-        <div className="container">
-            <div className="center">
+        <div className="main-footer">
+            <div className="container">
                 <h3 style={{color:'white'}}>Let's Connect!</h3>
                 <br/>
                 <a className="color" href="mailto: osgood1024@gmail.com">
@@ -31,9 +27,8 @@ const Footer = () =>{
                 <a className="color" href="https://medium.com/@osgoodgunawan" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={medium} alt="Medium"/>Medium
                 </a>
-            </div>
-        </div>
-   </div>
+                </div>
+         </div>
     )
 }
 

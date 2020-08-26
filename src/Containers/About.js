@@ -2,11 +2,16 @@ import React from 'react';
 import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 
 
-export default function About(){
+
+const About =()=>{
     return(
         <AbsoluteWrapper>
-            <h1>About page</h1>
+           
+                <h1>About Page</h1>
+         
         </AbsoluteWrapper>
         
     )
 }
+
+export default About
