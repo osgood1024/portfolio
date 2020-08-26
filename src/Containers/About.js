@@ -1,11 +1,12 @@
 import React from 'react';
-import '../App.css';
+import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 
 
 export default function About(){
     return(
-        <div className="App">
+        <AbsoluteWrapper>
             <h1>About page</h1>
-        </div>
+        </AbsoluteWrapper>
+        
     )
 }

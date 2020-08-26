@@ -1,11 +1,18 @@
 import React from 'react';
-import '../App.css';
+import AbsoluteWrapper from '../Components/AbsoluteWrapper';
+import '../App.css'
 
 
-export default function Home(){
-    return(
-        <div className="App">
-            <h1>Home page</h1>
-        </div>
+const Home =()=>{
+    const myPic=require('../Pics/beach.jpg');
+
+    return (
+        <AbsoluteWrapper >
+            <img className="photo" src={myPic} alt="Osgood"/>
+        </AbsoluteWrapper>
+
+
     )
 }
+
+export default Home;

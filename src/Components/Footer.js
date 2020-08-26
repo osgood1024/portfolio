@@ -1,4 +1,6 @@
 import React from 'react';
+import '../App.css';
+
 
 
 
@@ -11,6 +13,7 @@ const Footer = () =>{
 
 
     return(
+        
         <div id="contact">
         <div className="container">
             <div className="center">

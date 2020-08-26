@@ -1,11 +1,13 @@
 import React from 'react';
-import '../App.css';
+import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 
 
-export default function Projects(){
+const Projects=()=>{
     return(
-        <div className="App">
+         <AbsoluteWrapper>
             <h1>Projects</h1>
-        </div>
+        </AbsoluteWrapper>
     )
 }
+
+export default Projects

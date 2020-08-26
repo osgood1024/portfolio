@@ -7,6 +7,15 @@ nav{
   text-align: center;
 }
 
+.photo{
+  width:100% ;
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center bottom;
+  background-size: cover;
+
+  
+}
 
 #contact{
   min-height: 10vh;
