@@ -23,7 +23,7 @@ const Footer = () =>{
                 </a>
                 <a className="color" href="https://github.com/osgood1024" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={github} alt="Github"/>Github
-                </a><br/><br/>
+                </a>
                 <a className="color" href="https://medium.com/@osgoodgunawan" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={medium} alt="Medium"/>Medium
                 </a>

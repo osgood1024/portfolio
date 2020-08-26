@@ -2,19 +2,30 @@ nav{
   background-color: #434343;
 }
 
+
+p {
+  font-family: Chivo;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .01em;
+  text-transform: none;
+  line-height: 1.6em;
+  font-size: 20px;
+}
+
 h1 { 
-  padding-top: 70px;
-  text-align: center;
+  /* padding-top: 70px; */
+
   font-size: 63px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
 }
 
 
 .App {
   text-align: center;
 }
+
 
 .background-blue {
   background-position: "center";
@@ -30,7 +41,7 @@ h1 {
   color: #f9f3f4;
   position: absolute;
   text-align: center;
-  top: 25%;
+  top: 35%;
   width: 100%;
   line-height: 0.4em;
   
@@ -47,11 +58,14 @@ h1 {
 
   background: linear-gradient(
     to bottom,
-    #2c5364,
-    #203a43,
-    #0f2027
+    #0a0e0f,
+    #1f2122,
+    #151616
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
+
 
 
 .boton {
@@ -60,7 +74,7 @@ h1 {
   border: #ccc 1px solid;
   padding: 10px 15px;
   border-radius: 8px;
-  line-height: 4em;
+  line-height: 6em;
 }
 
 .boton:hover {
@@ -83,14 +97,14 @@ h1 {
 
 
 
-.page-container{
+/* .page-container{
   position: relative;
   min-height: 100vh;
 }
 
 .content-wrap{
   padding-bottom: 2.5rem;
-}
+} */
 
 
 .main-footer{
@@ -100,7 +114,7 @@ h1 {
   bottom: 0;
   width:100%;
   padding-top: 3em;
-  /* padding-bottom: 2.5rem; */ 
+  padding-bottom: 3%; 
   padding: 20px;
   text-align: center;
   
@@ -140,9 +154,20 @@ h1 {
  } 
 
 
-h3{
-  color: white;
+
+.about-profile-pic {
+  float: left;
+  margin: 0 2.5em 1em 0;
+  width: 80%;
 }
+
+.about{
+  margin-top:8% ;
+  margin-bottom: 40%;
+
+}
+
+
 
 
 

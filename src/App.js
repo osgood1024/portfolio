@@ -8,8 +8,7 @@ import Projects from "./Containers/Projects";
 import Navbar from  './Components/Navbar';
 import Footer from './Components/Footer'
 import './App.css';
-import ParticlesContainer from './Components/ParticlesContainer'
-// import Particles from "react-particles-js";
+
 
 
 
@@ -24,11 +23,8 @@ const App = () => {
 
   return (
     <>  
-    {/* <div className='page-container'>  */}
-        {/* <div className='content-wrap'> */}
       <Navbar/>
-        {/* <ParticlesContainer> */}
-
+        
       <main >
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
@@ -40,13 +36,10 @@ const App = () => {
           </animated.div>
         ))}
       </main>
-        {/* </ParticlesContainer> */}
-          {/* </div> */}
          <footer>
             <Footer/>
          </footer>
-          
-    {/* </div>  */}
+
     </>
   );
 };
