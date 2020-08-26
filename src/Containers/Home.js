@@ -11,6 +11,7 @@ const Home =()=>{
         <AbsoluteWrapper >
             
                 <ParticlesContainer />
+                <h1>Code yard</h1>
            
             {/* <img className="photo" src={myPic} alt="Osgood"/> */}
 
