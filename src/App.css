@@ -1,11 +1,14 @@
 nav{
   background-color: #434343;
- 
 }
 
 h1 { 
   padding-top: 70px;
   text-align: center;
+  font-size: 63px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 
@@ -13,22 +16,70 @@ h1 {
   text-align: center;
 }
 
+.background-blue {
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  height: 100%;
+  width: fit-content;
+}
+
+
+
+.btext {
+  color: #f9f3f4;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  line-height: 0.4em;
+  
+}
+
+.particles-js {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.boton {
+  color: #f9f3f4;
+  text-decoration: none;
+  border: #ccc 1px solid;
+  padding: 10px 15px;
+  border-radius: 8px;
+  line-height: 4em;
+}
+
+.boton:hover {
+  text-decoration: none;
+  background: #f9f3f4;
+  color: rgba(0, 0, 0, 1);
+  border: #f9f3f4 1px solid;
+}
+
+/* 
 .photo{
-  /* padding-top: 15px; */
+
   width: 100%;
   min-height: 100vh;
   margin-top: -2em;
   margin-bottom: 2em;
   background-size: cover;
   position: relative;
-
-
-  /* -ms-background-position-x: center;
-  -ms-background-position-y: bottom;
-  background-position: center bottom;
-  background-size: cover; */
-
-}
+} */
 
 
 
@@ -45,7 +96,7 @@ h1 {
 .main-footer{
   /* min-height: 4vh; */
   background-color: #000000;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width:100%;
   padding-top: 3em;
@@ -78,40 +129,8 @@ h1 {
   font-weight: 600; 
   color: #eeaa44;
   position: relative;  
-  /* transition-duration: 1 s;
-  text-shadow: 0 0 3px #F5F5F5, 0 0 5px #F5F5F5;     */
 }
-/* 
-.nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 10vh;
-  background:black;
-  color: white;
- 
- }
 
-
- .mover{
-   width: 50%;
-   display: flex;
-   justify-content :space-around;
-   align-items: center;
-   
- }
-
- /* .nav-links:hover{
-} */
-
-.currmover{
-  /* color: rgb(252, 198, 118); */
-  width: 50%;
-  display: flex;
-  justify-content :space-around;
-  align-items: center;
-  cursor: default;
-}
 
 .mover:hover {
   font-weight: 600; 
@@ -121,7 +140,12 @@ h1 {
  } 
 
 
-
 h3{
   color: white;
 }
+
+
+
+
+
+
