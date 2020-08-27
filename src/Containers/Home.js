@@ -3,11 +3,11 @@ import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 import '../App.css'
 import ParticlesContainer from '../Components/ParticlesContainer';
 import {Link} from 'react-router-dom';
+import Footer from '../Components/Footer'
 
 
 const Home =()=>{
-    // const myPic=require('../Pics/beach.jpg');
-
+ 
     return (
         <AbsoluteWrapper >
                
@@ -29,11 +29,8 @@ const Home =()=>{
                 </div>
 
             </div>
-
-           
-            {/* <img className="photo" src={myPic} alt="Osgood"/> */}
-
-  
+            <Footer/>
+    
         </AbsoluteWrapper>
 
 

@@ -3,6 +3,8 @@ import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 import '../App.css'
 import { Container, Col, Image } from 'react-bootstrap';
 import ReactPlayer from 'react-player'
+import Footer from '../Components/Footer'
+
 
 
 
@@ -11,7 +13,6 @@ const About =()=>{
     const url='https://www.youtube.com/watch?v=znaPRhayMnk&t=4s';
     return(
         <AbsoluteWrapper>
-           
                 <div className='about'>
                     <Container>
                         <Col xs={12} sm={8} smOffset={2}>
@@ -86,6 +87,8 @@ const About =()=>{
                         </Col>
                     </Container>
                 </div>
+                <br/>
+                <Footer/>
         </AbsoluteWrapper>
         
     )

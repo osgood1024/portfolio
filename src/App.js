@@ -6,7 +6,7 @@ import About from "./Containers/About";
 import Home from "./Containers/Home";
 import Projects from "./Containers/Projects";
 import Navbar from  './Components/Navbar';
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 import './App.css';
 
 
@@ -22,10 +22,11 @@ const App = () => {
   });
 
   return (
-    <>  
-      <Navbar/>
-        
+    <>
+     {/* <div className="page-container">
+      <div className="content-wrap"> */}
       <main >
+      <Navbar/>
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>
@@ -35,12 +36,12 @@ const App = () => {
             </Switch>
           </animated.div>
         ))}
+     
       </main>
-         <footer>
-            <Footer/>
-         </footer>
-
-    </>
+      {/* </div> */}
+       {/* </div> */}
+      </>
+ 
   );
 };
 
