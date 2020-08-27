@@ -6,8 +6,6 @@ import ReactPlayer from 'react-player'
 import Footer from '../Components/Footer'
 
 
-
-
 const About =()=>{
     const mypic=require("../Pics/profile.jpg");
     const url='https://www.youtube.com/watch?v=znaPRhayMnk&t=4s';

@@ -23,8 +23,7 @@ const App = () => {
 
   return (
     <>
-     {/* <div className="page-container">
-      <div className="content-wrap"> */}
+  
       <main >
       <Navbar/>
         {transitions.map(({ item, props, key }) => (
@@ -38,8 +37,7 @@ const App = () => {
         ))}
      
       </main>
-      {/* </div> */}
-       {/* </div> */}
+      
       </>
  
   );
