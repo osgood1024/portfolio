@@ -2,11 +2,13 @@ import React from 'react';
 import AbsoluteWrapper from '../Components/AbsoluteWrapper';
 import '../App.css'
 import { Container, Col, Image } from 'react-bootstrap';
+import ReactPlayer from 'react-player'
 
 
 
 const About =()=>{
     const mypic=require("../Pics/profile.jpg");
+    const url='https://www.youtube.com/watch?v=znaPRhayMnk&t=4s';
     return(
         <AbsoluteWrapper>
            
@@ -59,9 +61,30 @@ const About =()=>{
                                 Fun Activity
                             </b>
                         </h1>
+                        <br/>
+                        <p>
+                        As a designer, we need always to be open-minded with the design trend and find our unique design solution. 
+                        Same goes to dancers; we develop a creative movement to show on the stage or battles. 
+                        With dance involve as a designer, it helps me practice my abstract thinking in a design perspective. 
+                        Dance and design are both freedoms of art and abstraction of a human being. Being a dancer, 
+                        I can focus on the fundamentals until they can look at my movement as a whole, 
+                        and then create. Dance leads me to a UX designer field where I can solve human problems with creativity and curiosity.
+                        I hope you enjoy my dance journey video!
+                        </p>
+                  <br/>
+                            <div className='player-wrapper'>
+                                <ReactPlayer 
+                                    className='react-player'
+                                    url={url}
+                                    playing={false} 
+                                    controls={true} 
+                                    light={true} 
+                                    width='100%'
+                                    height='100%'
+                                />
+                            </div>
                         </Col>
                     </Container>
-         
                 </div>
         </AbsoluteWrapper>
         
