@@ -21,7 +21,7 @@ const About =()=>{
                                     About Me
                                 </strong>
                             </h1>
-                            <br/>
+                          <br/>
                             <p>
                             Hi there! I am Osgood Gunawan, a <b>Product /User Experience Designer/Software Engineer</b> who has been deeply passionate about 
                             creating experiences that build intersections of problem-solving, design thinking, and business values.
@@ -49,16 +49,20 @@ const About =()=>{
                             
                         </Col>
 
-                        <h1>Fun Activity</h1>
-
                     </Container>
-
-
-
-
                 </div>
-
+                <div className='fun_activity'>
+                    <Container>
+                        <Col>
+                        <h1>
+                            <b>
+                                Fun Activity
+                            </b>
+                        </h1>
+                        </Col>
+                    </Container>
          
+                </div>
         </AbsoluteWrapper>
         
     )
