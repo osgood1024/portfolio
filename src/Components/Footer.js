@@ -8,11 +8,9 @@ const Footer = () =>{
     const linkedin=require("../Pics/linkedin.jpeg");
     const medium=require("../Pics/medium.png");
 
-
     return(
         <div className="main-footer">
             <div className="container">
-
                 <h3 style={{color:'white'}}>Let's Connect!</h3>
                 <br/>
                 <a className="color" href="mailto: osgood1024@gmail.com">

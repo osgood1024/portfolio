@@ -6,8 +6,10 @@ import About from "./Containers/About";
 import Home from "./Containers/Home";
 import Projects from "./Containers/Projects";
 import Navbar from  './Components/Navbar';
-// import Footer from './Components/Footer'
+// import Footer from './Components/Footer';
 import './App.css';
+import ProjectZoo from './Components/Projects/ProjectZoo' ;
+
 
 
 
@@ -23,21 +25,20 @@ const App = () => {
 
   return (
     <>
-  
-      <main >
+   
       <Navbar/>
+      <main >
         {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <Switch location={item}>
               <Route exact path="/" component={Home} />
+              <Route exact path="/projectzoo" component={ProjectZoo}/>
               <Route exact path="/about" component={About} />
               <Route exact path="/projects" component={Projects}/>
             </Switch>
           </animated.div>
-        ))}
-     
+        ))} 
       </main>
-      
       </>
  
   );

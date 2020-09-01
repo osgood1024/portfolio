@@ -85,7 +85,6 @@ const About =()=>{
                         </Col>
                     </Container>
                 </div>
-                <br/>
                 <Footer/>
         </AbsoluteWrapper>
         

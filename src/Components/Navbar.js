@@ -51,7 +51,7 @@ import {NavLink} from 'react-router-dom' ;
            
             <a href = '/resume.pdf' rel="noopener" target="_blank" className="nav-item nav-link mover"
               activeClassName="nav-item nav-link active" style = {{textDecoration: 'none'}} > 
-            Resume 
+             Resume 
             </a>
           </div>
         </div>

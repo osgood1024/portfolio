@@ -26,10 +26,10 @@ const Home =()=>{
                     Check out my project
                 </Link>
                 
-                </div>
-
             </div>
             <Footer/>
+
+            </div>
     
         </AbsoluteWrapper>
 
