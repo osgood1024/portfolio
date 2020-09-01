@@ -86,7 +86,6 @@ h1 {
 
 /* 
 .photo{
-
   width: 100%;
   min-height: 100vh;
   margin-top: -2em;
@@ -94,23 +93,6 @@ h1 {
   background-size: cover;
   position: relative;
 } */
-
-
-
-/* .page-container{
-  flex-direction: column;
-  min-height: 100vh;
-  display: flex;
-} 
-
- .content-wrap{
-  padding-bottom: 2.5rem;
-  flex: 1;
-}  */
-
-html{
-  height: 100%;
-}
 
 
 .main-footer{
@@ -167,7 +149,7 @@ html{
 }
 
 .fun_activity{
-  margin-bottom:5%;
+  margin-bottom:3%;
 }
 
 .player-wrapper {
@@ -182,9 +164,7 @@ html{
   left: 0;
 }
 
-/* .project_footer{
-  bottom:-20%;
-} */
+
 
 
 
