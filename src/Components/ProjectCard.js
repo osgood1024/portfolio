@@ -43,7 +43,7 @@ export default function OrjectCard() {
           to={'/projectzoo'}>
         <CardMedia
           className={classes.media}
-          image={bsio}
+          image={"./animation.gif"}
           title="Project_Zoo"
         />
         <CardContent >

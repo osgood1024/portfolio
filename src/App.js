@@ -6,7 +6,9 @@ import About from "./Containers/About";
 import Home from "./Containers/Home";
 import Projects from "./Containers/Projects";
 import Navbar from  './Components/Navbar';
-// import Footer from './Components/Footer';
+import MovieReview from './Components/Projects/MovieReview';
+import Oasis from './Components/Projects/Oasis' ;
+import Designathon from './Components/Projects/Designathon'
 import './App.css';
 import ProjectZoo from './Components/Projects/ProjectZoo' ;
 
@@ -32,9 +34,12 @@ const App = () => {
           <animated.div key={key} style={props}>
             <Switch location={item}>
               <Route exact path="/" component={Home} />
-              <Route exact path="/projectzoo" component={ProjectZoo}/>
               <Route exact path="/about" component={About} />
               <Route exact path="/projects" component={Projects}/>
+              <Route exact path="/projectzoo" component={ProjectZoo}/>
+              <Route exact path="/movie_review" component={MovieReview}/>
+              <Route exact path="/oasis" component={Oasis}/>
+              <Route exact path="/designathon" component={Designathon}/>
             </Switch>
           </animated.div>
         ))} 

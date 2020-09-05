@@ -2,14 +2,15 @@ import React from 'react';
 import AbsoluteWrapper from '../AbsoluteWrapper';
 import './Project.css' ;
 
-function Designathon() {
+
+function MovieReview() {
     return (
         <AbsoluteWrapper>
         <div className='container_project'>
-            <h1>Design For Transportation </h1>
+            <h1>Movie Review</h1>
         </div>
         </AbsoluteWrapper>
     )
 }
 
-export default Designathon ;
+export default MovieReview

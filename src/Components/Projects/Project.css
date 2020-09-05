@@ -2,3 +2,42 @@
     text-align: center;
     margin-top:7% ;
 }
+
+#welcome{
+    margin-left: 100px;
+}
+
+.photo{
+    width: 100%;
+    margin-bottom: 2em;
+    background-size: cover;
+    position: relative;
+  } 
+
+
+.button {
+    /* color: #179bee; */
+    text-decoration: none;
+    border: #179bee 2px solid;
+    padding: 21px 34px;
+    border-radius: 300px;
+    line-height: 6em;
+    font-family: Chivo;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    border-color: #179bee;
+    
+  }
+  
+  .button:hover {
+    text-decoration: none;
+    background: #179bee;
+    color: rgb(255, 255, 255);
+    border: #f9f3f4 1px solid;
+  }
+
+  /* .carousel-control-prev-icon{
+    color: black
+  } */
