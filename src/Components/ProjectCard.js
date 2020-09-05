@@ -7,7 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import {Grid} from "@material-ui/core";
 import {Link} from 'react-router-dom' ;
-import Footer from './Footer';
+
 
 
 const useStyles = makeStyles({
@@ -59,7 +59,7 @@ export default function OrjectCard() {
     <Grid item xs={12} sm={6} md={4}>
     <Card className={classes.root} >
       <CardActionArea component={Link}
-          to={'/projectzoo'}>
+          to={'/movie_review'}>
         <CardMedia
           className={classes.media}
           image={bsio}
@@ -77,15 +77,15 @@ export default function OrjectCard() {
       <Grid item xs={12} sm={6} md={4}>
     <Card className={classes.root} >
       <CardActionArea component={Link}
-          to={'/projectzoo'}>
+          to={'/oasis'}>
         <CardMedia
           className={classes.media}
           image={bsio}
-          title="Movie Review"
+          title="Oasis"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-           Movie Review
+           Oasis
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -96,15 +96,15 @@ export default function OrjectCard() {
       <Grid item xs={12} sm={6} md={4}>
     <Card className={classes.root} >
       <CardActionArea component={Link}
-          to={'/projectzoo'}>
+          to={'/designathon'}>
         <CardMedia
           className={classes.media}
           image={bsio}
-          title="Movie Review"
+          title="designathon"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-           Movie Review
+           Design For Transportation
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -112,7 +112,7 @@ export default function OrjectCard() {
       </Grid>
       
       </Grid>
-      {/* <Footer/> */}
+     
 
      
       
