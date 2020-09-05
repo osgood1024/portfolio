@@ -29,13 +29,9 @@ const ProjectZoo =()=> {
                     or contribute their projects to the site.
                     </p>
                 </Col>
+                <br/>
                 <img src={'./PZ/home2.png'} alt={'homepage'} className='photo '/>
-                </Container>
-
                 <br/>
-                <br/>
-
-                <Container>
                 <Col>
                     <h2 style={{textAlign:'center'}}>Tech Stack:</h2>
                     <hr/>
