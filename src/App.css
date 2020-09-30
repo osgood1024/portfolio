@@ -20,6 +20,7 @@ p {
   text-transform: none;
   line-height: 1.6em;
   font-size: 20px;
+  letter-spacing: .02em;
 }
 
 h1 { 

@@ -99,7 +99,7 @@ export default function OrjectCard() {
           to={'/designathon'}>
         <CardMedia
           className={classes.media}
-          image={bsio}
+          image={'./designathon.png'}
           title="designathon"
         />
         <CardContent>
