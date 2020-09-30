@@ -19,10 +19,11 @@ const About =()=>{
                         <Col >
                             <h1>
                                 <strong>
+                                    <u>
                                     About Me
+                                    </u>
                                 </strong>
                             </h1>
-                            <br/>
                             <p>
                             Hi there! I am Osgood Gunawan, a <b>Product /User Experience Designer/Software Engineer</b> who has been deeply passionate about 
                             creating experiences that build intersections of problem-solving, design thinking, and business values.
@@ -57,10 +58,11 @@ const About =()=>{
                         <Col>
                         <h1>
                             <b>
+                                <u>
                                 Fun Activity
+                                </u>
                             </b>
                         </h1>
-                        <hr/>
                         <p>
                         As a designer, we need always to be open-minded with the design trend and find our unique design solution. 
                         Same goes to dancers; we develop a creative movement to show on the stage or battles. 

@@ -23,6 +23,7 @@ function MovieReview() {
             <br/>
             <Container>
                 <Col>
+                <br/>
                 <h2>About:</h2>
                 <hr/>
                     <p>
@@ -30,9 +31,10 @@ function MovieReview() {
                     We do not own the movie copyright, every movies' data were pulling from movie DB API.
                     </p>
                 </Col>
-              
+              <br/>
                 <Col>
-                    <h2 style={{textAlign:'center'}}>Tech Stack:</h2>
+                <br/>
+                    <h2 >Tech Stack:</h2>
                     <hr/>
                     <li>
                         Ruby on Rails 

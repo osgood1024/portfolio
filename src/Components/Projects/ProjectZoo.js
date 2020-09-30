@@ -20,6 +20,7 @@ const ProjectZoo =()=> {
             <br/>
             <Container>
                 <Col>
+                <br/>
                 <h2>About:</h2>
                 <hr/>
                     <p>
@@ -33,7 +34,8 @@ const ProjectZoo =()=> {
                 <img src={'./PZ/home2.png'} alt={'homepage'} className='photo '/>
                 <br/>
                 <Col>
-                    <h2 style={{textAlign:'center'}}>Tech Stack:</h2>
+                <br/>
+                    <h2>Tech Stack:</h2>
                     <hr/>
                     <li>
                        <a href='https://github.com/osgood1024/Project_Zoo_client_side' rel="noopener noreferrer" target="_blank">
