@@ -3,8 +3,18 @@
     margin-top:7% ;
 }
 
+.click{
+  text-align: center;
+}
+
 #welcome{
     margin-left: 100px;
+}
+.boxBorder{
+  font: 18px Chivo,s ans-serif;
+  border: 5px solid #f1e1c2;
+  padding: 15px;
+  border-style: outset;
 }
 
 .photo{

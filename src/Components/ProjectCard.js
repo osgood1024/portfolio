@@ -62,7 +62,7 @@ export default function OrjectCard() {
           to={'/movie_review'}>
         <CardMedia
           className={classes.media}
-          image={bsio}
+          image={'./movie.png'}
           title="Movie Review"
         />
         <CardContent>
