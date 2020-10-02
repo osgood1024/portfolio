@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom' ;
  
     return (
 
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg " >
         
         <NavLink
               exact
