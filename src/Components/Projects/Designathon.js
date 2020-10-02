@@ -1,6 +1,6 @@
 import React from 'react';
 import AbsoluteWrapper from '../AbsoluteWrapper';
-import { Container, Col, Image } from 'react-bootstrap';
+import { Container, Col } from 'react-bootstrap';
 import Footer from '../Footer';
 import ReactPlayer from 'react-player'
 import './Project.css' ;
@@ -216,15 +216,15 @@ function Designathon() {
                     <h2 >Take Away</h2>
                     <hr/>
                     <p>
-                    Our team was one of the five teams that won the designathon and rewarded $1000 for having a unique concept. 
-                    It was our first design hackathon, and all of us just met the day before the competition began. 
-                    I believe it is similar in the job field. Working as a team individuals need to adapt and understand others.
-                    We may not know each other well, but we are focused and have the same mindset toward our goal. 
-                    The designathon was an opportunity for us to show our ideas to the future Pepper Canyon station and the UCSD communities.
-                    One crucial skill that I learned in this competition is leadership. All of the members of our team are international students and not very fluent in speaking English; 
-                    therefore, I volunteered my team to present in the final presentation. 
-                    Not only I gained confidence in my presentation skills on stage but also being part of the history in our first ever design hackathon in University California of San Diego. 
-                    The Pepper Canyon Designathon was a memorable event for me. After the designathon, I told myself to join more design competitions in the future as this was only the beginning of the journey.
+                        Our team was one of the five teams that won the designathon and rewarded $1000 for having a unique concept. 
+                        It was our first design hackathon, and all of us just met the day before the competition began. 
+                        I believe it is similar in the job field. Working as a team individuals need to adapt and understand others.
+                        We may not know each other well, but we are focused and have the same mindset toward our goal. 
+                        The designathon was an opportunity for us to show our ideas to the future Pepper Canyon station and the UCSD communities.
+                        One crucial skill that I learned in this competition is leadership. All of the members of our team are international students and not very fluent in speaking English; 
+                        therefore, I volunteered my team to present in the final presentation. 
+                        Not only I gained confidence in my presentation skills on stage but also being part of the history in our first ever design hackathon in University California of San Diego. 
+                        The Pepper Canyon Designathon was a memorable event for me. After the designathon, I told myself to join more design competitions in the future as this was only the beginning of the journey.
                     </p>
                    
                 </Col>
