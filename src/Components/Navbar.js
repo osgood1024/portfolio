@@ -1,13 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 // import '../App.css';
 import {NavLink} from 'react-router-dom' ;
+import {FaBars, FaTimes} from 'react-icons/fa';
+
 
  const Navbar = () => {
+
+    
+  const [click, setClick]=useState(false);
  
+  const handleClick=()=> setClick(!click);
+  
     return (
 
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg " >
-        
+      
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg " >
         <NavLink
               exact
               to="/"
@@ -25,13 +32,19 @@ import {NavLink} from 'react-router-dom' ;
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"
+          aria-haspopup='true'
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={handleClick}
           >
-          <span className="navbar-toggler-icon" />
+          {/* <span className="navbar-toggler-icon" /> */}
+          {click ? <FaTimes />: <FaBars/>}
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        <div className={click ? 'nav-menu active' : 'navbar-collapse nav-menu collapse'} id="navbarNavAltMarkup"  >
+        
           <div className="navbar-nav ml-auto">
+      
             <NavLink
               exact
               to="/Projects"
@@ -40,11 +53,14 @@ import {NavLink} from 'react-router-dom' ;
               >
               Projects
             </NavLink>
+  
+
             <NavLink
               exact
               to="/About"
               className="nav-item nav-link mover"
               activeClassName="nav-item nav-link active"
+              
               >
               About Me
             </NavLink>
@@ -53,9 +69,15 @@ import {NavLink} from 'react-router-dom' ;
               activeClassName="nav-item nav-link active" style = {{textDecoration: 'none'}} > 
              Resume 
             </a>
+    
           </div>
+
         </div>
+      
+
+        
       </nav>
+        
      
 
       
