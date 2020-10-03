@@ -18,13 +18,12 @@ p {
   font-style: normal;
   letter-spacing: .01em;
   text-transform: none;
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-size: 20px;
   letter-spacing: .02em;
 }
 
 h1 { 
-  font-size: 63px;
   font-weight: 100;
   font-family: "Roboto", sans-serif;
 }
@@ -85,19 +84,9 @@ h1 {
   border: #f9f3f4 1px solid;
 }
 
-/* 
-.photo{
-  width: 100%;
-  min-height: 100vh;
-  margin-top: -2em;
-  margin-bottom: 2em;
-  background-size: cover;
-  position: relative;
-} */
 
 
 .main-footer{
-  /* min-height: 4vh; */
   background-color: #000000;
   position: absolute;
   /* bottom: 0; */
