@@ -205,8 +205,10 @@ function Designathon() {
                         With the app and the self-driving shuttle, not only it satisfies the students with such needs but also encourages 
                         more people to have a healthier lifestyle by eating breakfast.
                     </p>
-
+                    <br/>
+                    <img src={"../Designathon/conclusion.png"} alt={'conclusion'} className={'photo'}/>
                 </Col>
+                <br/>
                 <Col>
                      <img src={"../Designathon/take_away.JPG"} alt={'picture'} className={'photo take_away'}/>
                 </Col>
