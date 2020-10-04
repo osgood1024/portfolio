@@ -40,7 +40,6 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
             data-toggle="collapse"
             data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
-            aria-haspopup='true'
             aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={handleClick}
@@ -52,7 +51,7 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
 
         {/* <div className={click ? 'nav-menu active' : 'navbar-collapse nav-menu collapse'} id="navbarNavAltMarkup"  > */}
           
-          <NavMenu className="navbar-nav ml-auto" onClick={handleClick} click={click}>
+          <NavMenu className="navbar-nav ml-auto" id="navbarNavAltMarkup" onClick={handleClick} click={click}>
             <NavItem>
               <NavLink
                 exact
