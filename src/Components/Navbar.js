@@ -44,7 +44,6 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
             aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={handleClick}
-            style={{padding:'0'}}
             >
             {/* <span className="navbar-toggler-icon" /> */}
             {click ? <FaTimes /> : <FaBars/>}

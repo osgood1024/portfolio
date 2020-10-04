@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 
 export default function OrjectCard() {
   const classes = useStyles();
-  const bsio=require("../Pics/bsio_logo.png");
+
 
   return (
     <>
