@@ -34,7 +34,7 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
 
         {/* <MobileIcon onClick={handleClick}>  */}
         
-          <MobileIcon
+          <div
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -47,7 +47,7 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
             >
             {/* <span className="navbar-toggler-icon" /> */}
             {click ? <FaTimes /> : <FaBars/>}
-          </MobileIcon>
+          </div>
        
 
         {/* <div className={click ? 'nav-menu active' : 'navbar-collapse nav-menu collapse'} id="navbarNavAltMarkup"  > */}
