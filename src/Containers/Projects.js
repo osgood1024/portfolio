@@ -13,8 +13,7 @@ const Projects = ()=>{
          <AbsoluteWrapper>
         
             <ProjectCard/>
-            
-             <Footer/>
+             {/* <Footer/> */}
         
         </AbsoluteWrapper>
     )

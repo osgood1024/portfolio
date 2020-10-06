@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { Component, useContext } from "react";
 import { Switch, Route} from "react-router-dom";
 import { __RouterContext } from 'react-router';
 import { useTransition, animated } from "react-spring";
@@ -11,6 +11,7 @@ import Oasis from './Components/Projects/Oasis' ;
 import Designathon from './Components/Projects/Designathon'
 import './App.css';
 import ProjectZoo from './Components/Projects/ProjectZoo' ;
+import Footer from './Components/Footer';
 
 
 
@@ -44,6 +45,7 @@ const App = () => {
           </animated.div>
         ))} 
       </main>
+      
       </>
  
   );

@@ -24,13 +24,14 @@ const About =()=>{
                                     </u>
                                 </strong>
                             </h1>
+                            <br/>
                             <p>
                             Hi there! I am Osgood Gunawan, a <b>Product /User Experience Designer/Software Engineer</b> who has been deeply passionate about 
                             creating experiences that build intersections of problem-solving, design thinking, and business values.
                             </p>
                             
                             <p>
-                            My most recent worked was The <a href="https://theprojectzoo.netlify.app/"  rel="noopener noreferrer" target="_blank"><strong>Project Zoo</strong></a>, 
+                            My most recent worked was The <a href="https://theprojectzoo.netlify.app/"  rel="noopener noreferrer" target="_blank"><strong style={{fontSize:'20px'}}><i>Project Zoo</i></strong></a>, 
                             a website where you can find project ideas or share your projects with the platform. 
                             I created the whole application from scratch. You can read more about Project Zoo  
                             <a href="https://github.com/osgood1024/Project_Zoo_client_side"  rel="noopener noreferrer" target="_blank"><strong> <i> here</i> </strong></a>.
@@ -45,7 +46,7 @@ const About =()=>{
                             <p>
                             Thank you for taking the time to get to know a little bit about me! 
                             I am currently seeking a full-time job/ internship/ apprenticeship opportunity. 
-                            If you need a dedicated intern/employee or just want to make a new friend feel free to reach out to <a href="mailto: osgood1024@gmail.com"  rel="noopener noreferrer" target="_blank"><strong> me</strong></a>! 
+                            If you need a dedicated intern/employee or just want to make a new friend feel free to reach out to <a href="mailto: osgood1024@gmail.com"  rel="noopener noreferrer" target="_blank"><strong><i> me </i></strong></a>! 
                             </p>
 
                             
@@ -63,6 +64,7 @@ const About =()=>{
                                 </u>
                             </b>
                         </h1>
+                        <br/>
                         <p>
                         As a designer, we need always to be open-minded with the design trend and find our unique design solution. 
                         Same goes to dancers; we develop a creative movement to show on the stage or battles. 
