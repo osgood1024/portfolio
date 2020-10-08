@@ -1,4 +1,4 @@
-import React, { Component, useContext } from "react";
+import React, { useContext } from "react";
 import { Switch, Route} from "react-router-dom";
 import { __RouterContext } from 'react-router';
 import { useTransition, animated } from "react-spring";
@@ -11,7 +11,8 @@ import Oasis from './Components/Projects/Oasis' ;
 import Designathon from './Components/Projects/Designathon'
 import './App.css';
 import ProjectZoo from './Components/Projects/ProjectZoo' ;
-import Footer from './Components/Footer';
+import Contact from './Containers/Contact';
+
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
               <Route exact path="/projects" component={Projects}/>
+              <Route exact path='/contact' component={Contact}/>
               <Route exact path="/projectzoo" component={ProjectZoo}/>
               <Route exact path="/movie_review" component={MovieReview}/>
               <Route exact path="/oasis" component={Oasis}/>

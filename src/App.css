@@ -9,7 +9,7 @@ body {
 
 #tsparticles{
 width: 100%;
-height: 750px;
+height: 760px;
 }
 
 p {
@@ -46,7 +46,7 @@ h1 {
   color: #f9f3f4;
   position: absolute;
   text-align: center;
-  top: 45%;
+  top: 50%;
   width: 100%;
   line-height: 0.4em;
 }

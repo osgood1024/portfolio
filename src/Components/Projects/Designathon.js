@@ -1,8 +1,8 @@
 import React from 'react';
 import AbsoluteWrapper from '../AbsoluteWrapper';
 import { Container, Col } from 'react-bootstrap';
-import Footer from '../Footer';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import Footer from '../Footer'
 import './Project.css' ;
 
 function Designathon() {
@@ -236,8 +236,9 @@ function Designathon() {
                 <br/>
                 <br/>
                 <br/>
-
-            <Footer/>
+                <br/>
+                <br/>
+                <Footer/>
         </AbsoluteWrapper>
     )
 }

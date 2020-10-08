@@ -1,0 +1,53 @@
+.contact {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #2c5364,
+      #203a43,
+      #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+  
+    background: linear-gradient(
+      to bottom,
+      #0a0e0f,
+      #1f2122,
+      #151616
+    );
+    
+    align-items: center;
+
+    color: white;
+
+    font-family: "Raleway";
+    font-size: 1.5vw;
+    line-height: 150%;
+    font-weight: 100;
+
+    background-position: "center";
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content:center;
+
+}
+
+
+.btext {
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+  }
+
+
+
+
+

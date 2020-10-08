@@ -54,6 +54,7 @@ const About =()=>{
 
                     </Container>
                 </div>
+                <br/>
                 <div className='fun_activity'>
                     <Container>
                         <Col>
@@ -90,6 +91,7 @@ const About =()=>{
                     </Container>
                 </div>
                 <Footer/>
+                
         </AbsoluteWrapper>
         
     )

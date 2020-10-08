@@ -12,9 +12,8 @@ const Home =()=>{
         <AbsoluteWrapper >
                
             <div className="particles-js background-blue">
+                
                 <ParticlesContainer />
-
-
                 <div className="btext">
                     <h1><strong>
                     Osgood Gunawan
@@ -23,17 +22,15 @@ const Home =()=>{
                         Software Engineer / UI & UX Designer
                     </h2>
                     <Link to ='/projects' className="boton">
-                        Check out my project
+                        Check out my projects
                     </Link>
                     
                 </div>
            
-            <Footer/>
+                <Footer/>
             </div>
-    
+              
         </AbsoluteWrapper>
-
-
     )
 }
 

@@ -7,7 +7,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import {Grid} from "@material-ui/core";
 import {Link} from 'react-router-dom' ;
-import Footer from './Footer';
+import Footer from './Footer'
+
+
 
 
 
@@ -36,7 +38,7 @@ export default function OrjectCard() {
   return (
     <>
   
-    <Grid container spacing={4} className={classes.gridContainer} style={{marginTop:'1%'}} >
+    <Grid container spacing={6} className={classes.gridContainer} style={{marginTop:'.2%'}} >
       
       <Grid item xs={12} sm={6} md={4}>
     <Card className={classes.root} >
@@ -111,12 +113,9 @@ export default function OrjectCard() {
       </CardActionArea>
     </Card>
       </Grid>
-      
       </Grid>
+      <br/>
       <Footer/>
-
-     
-      
 </>
   );
 }

@@ -30,7 +30,7 @@ class Canvas extends Component {
               value: 70,
               density: {
                 enable: true,
-                value_area: 850
+                value_area:850
               }
             },
             color: {

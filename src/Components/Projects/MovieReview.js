@@ -2,7 +2,7 @@ import React from 'react';
 import AbsoluteWrapper from '../AbsoluteWrapper';
 import { Container, Col } from 'react-bootstrap';
 import './Project.css' ;
-import Footer from '../Footer';
+import Footer from '../Footer'
 
 
 
@@ -40,13 +40,12 @@ function MovieReview() {
                         Ruby on Rails 
                     </li>
                 </Col>
-                <br/>
-            
                 </Container>
                 <br/>
                 <br/>
-
+                <br/>
             <Footer/>
+    
         </AbsoluteWrapper>
     )
 }

@@ -2,10 +2,8 @@ import React from 'react';
 import AbsoluteWrapper from '../AbsoluteWrapper';
 import './Project.css' ;
 import { Container, Col, Row} from 'react-bootstrap';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 import Footer from '../Footer';
-
-
 
 
 function Oasis() {
@@ -253,11 +251,11 @@ function Oasis() {
             </Col>
 
         </Container>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <Footer/>
+         <br/>
+         <br/>
+         <br/>
+         <br/>
+         <Footer/>
         </AbsoluteWrapper>
     )
 }

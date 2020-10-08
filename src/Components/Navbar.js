@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from 'react-router-dom' ;
 import {FaBars, FaTimes} from 'react-icons/fa';
-import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
+import {NavItem, NavMenu} from './Navbar_elements';
 
 
  const Navbar = () => {
@@ -85,7 +85,24 @@ import {MobileIcon,NavItem, NavMenu} from './Navbar_elements'
               activeClassName="nav-item nav-link active" style = {{textDecoration: 'none', padding:'1.3rem 4.5rem 1.3rem 0'}} onClick={closeMobileMenu}> 
              Resume 
             </a>
+
+            {/* <NavItem>
+              <NavLink
+                exact
+                to="/Contact"
+                className="nav-item nav-link mover "
+                activeClassName="nav-item nav-link active"
+                onClick={closeMobileMenu}
+                style={{padding:'1.3rem 4.5rem 1.3rem 0'}}
+                >
+                Contact
+              </NavLink>
+            </NavItem> */}
+
+
             </NavMenu>
+            
+
         
 
         {/* </div> */}

@@ -13,7 +13,7 @@ const Footer = () =>{
             <div className="container">
                 <h3 style={{color:'white'}}>Let's Connect!</h3>
                 <br/>
-                <a className="color" href="mailto: osgood1024@gmail.com">
+                <a className="color" href="mailto: osgood1024@gmail.com" target="_blank" rel="noopener noreferrer">
                     <img className="icon" src={email} alt="Email"/>Email
                 </a>
                 <a className="color" href="https://www.linkedin.com/in/osgood-gunawan-973a5993/" target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,8 @@ import  React from 'react' ;
 import AbsoluteWrapper from '../AbsoluteWrapper' ;
 import './Project.css' ;
 import { Container, Col } from 'react-bootstrap';
-import Footer from '../Footer';
+import Footer from '../Footer'
+
 
 
 const ProjectZoo =()=> {
@@ -59,8 +60,9 @@ const ProjectZoo =()=> {
                 </Container>
                 <br/>
                 <br/>
-
-            <Footer/>
+                <br/>
+                <Footer/>
+          
         </AbsoluteWrapper>
 
     )
